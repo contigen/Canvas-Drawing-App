@@ -1,2 +1,3 @@
 # Canvas Drawing App
-A basic drawing app created using HTML5 Canvas Element & JavaScript, feel free to draw
+A basic drawing app created using HTML5 Canvas Element & JavaScript, feel free to draw<br>
+You can clear your drawing.
