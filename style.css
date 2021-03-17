@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  display: inline-block;
+  margin-right: 20px;
+}
+.canvas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  margin: 100px;
+  margin-top: 0;
+}
+canvas {
+  border: 2px solid grey;
+  border-radius: 10px;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2);
+}
