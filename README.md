@@ -1,2 +1,2 @@
-# Canvas-Drawing-App
-A drawing app created using Canvas Element with Javascript
+# Canvas Drawing App
+A basic drawing app created using HTML5 Canvas Element with Javascript
