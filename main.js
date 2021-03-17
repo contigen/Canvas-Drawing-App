@@ -25,6 +25,7 @@ function board() {
   }
   function endDraw() {
     isPainting = false;
+    // begin a new path on next draw
     ctx.beginPath();
   }
   canvasBoard.addEventListener(`mousedown`, startDraw);
