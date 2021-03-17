@@ -1,6 +1,8 @@
 `use strict`;
 const canvasBoard = document.getElementById(`board`);
 const colourInput = document.getElementById(`colours`);
+const clearButton = document.getElementById(`clear`);
+clearButton.addEventListener(`click`, clearCanvasBoard);
 const ctx = canvasBoard.getContext(`2d`);
 window.addEventListener(`load`, board);
 function board() {
@@ -31,4 +33,8 @@ function board() {
   canvasBoard.addEventListener(`mousedown`, startDraw);
   canvasBoard.addEventListener(`mousemove`, draw);
   canvasBoard.addEventListener(`mouseup`, endDraw);
+}
+function clearCanvasBoard() {
+  ctx.clearRect(0, 0, canvasBoard.width, canvasBoard.height);
+  ctx.beginPath();
 }
